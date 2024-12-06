@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppTinhToan"
+        tools:targetApi="31">
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Setting Activity -->
+        <activity
+            android:name=".SettingActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+
+
+        <activity
+            android:name=".LevelActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".cong_10cau_kotime"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".cong_allcau_cotime"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".cong_allcau_kotime"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".cong_allcau_kotime_sc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".cong_allcau_kotime_tc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".cong_allcau_kotime_cc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".cong_allcau_cotime_sc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".cong_allcau_cotime_tc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".cong_allcau_cotime_cc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".cong10cau_cotime_sc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".cong10cau_cotime_tc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".cong_10cau_cotime_cc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+
+
+        <activity
+            android:name=".tru_10cau_cotime"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".tru_10cau_cotime_sc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".tru_10cau_cotime_tc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name="tru_10cau_cotime_cc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".tru_10cau_kotime"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".tru_10cau_kotime_sc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".tru_10cau_kotime_tc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".tru_10cau_kotime_cc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".tru_allcau_cotime"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".tru_allcau_cotime_sc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".tru_allcau_cotime_tc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".tru_allcau_cotime_cc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".tru_allcau_kotime"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".tru_allcau_kotime_sc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".tru_allcau_kotime_tc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".tru_allcau_kotime_cc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".nhan_10cau_cotime"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".nhan_10cau_cotime_sc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".nhan_10cau_cotime_tc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".nhan_10cau_cotime_cc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".nhan_10cau_kotime_sc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".nhan_10cau_kotime_tc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".nhan_10cau_kotime_cc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".nhan_10cau_kotime"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".nhan_allcau_cotime"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".nhan_allcau_cotime_sc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".nhan_allcau_cotime_tc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".nhan_allcau_cotime_cc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".nhan_allcau_kotime_sc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".nhan_allcau_kotime_tc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".nhan_allcau_kotime_cc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".nhan_allcau_kotime"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".chia_10cau_cotime"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".chia_10cau_cotime_sc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".chia_10cau_cotime_tc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".chia_10cau_cotime_cc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".chia_10cau_kotime_sc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".chia_10cau_kotime_cc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".chia_10cau_kotime_tc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".chia_allcau_cotime_cc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".chia_allcau_cotime_tc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".chia_allcau_cotime_sc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".chia_allcau_kotime_sc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".chia_allcau_kotime_tc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".chia_allcau_kotime_cc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".chia_allcau_kotime"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".chia_allcau_cotime"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+
+
+
+
+        <activity
+            android:name=".cong_10cau_kotime_sc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".cong_10cau_kotime_tc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".cong_10cau_kotime_cc"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".manhinh_end"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".manhinh_end2"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+
+
+    </application>
+
+</manifest>

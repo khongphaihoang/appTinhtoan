@@ -1,0 +1,10 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <!-- Gradient hoặc màu nền -->
+    <gradient
+        android:startColor="#D4A24F"
+        android:endColor="#B27A2A"
+        android:angle="90" /> <!-- Gradient từ trên xuống dưới -->
+
+    <!-- Bo góc -->
+    <corners android:radius="8dp" />
+</shape>

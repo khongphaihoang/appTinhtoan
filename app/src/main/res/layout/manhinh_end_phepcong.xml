@@ -1,0 +1,128 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5DC">
+
+    <!-- Menubar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="#333333"
+        android:gravity="center_vertical">
+
+        <!-- Đồng hồ -->
+        <ImageView
+            android:id="@+id/img_dongho"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/img_dongho"
+            android:layout_marginTop="2dp"/>
+
+        <!-- Thời gian -->
+
+        <!-- Ngôi sao -->
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1dp"
+            android:text="798,7"
+            android:textColor="@android:color/white"
+            android:textSize="27sp" />
+
+        <ImageView
+            android:id="@+id/star"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:src="@drawable/star"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="1dp"
+            android:layout_gravity="center_vertical"/>
+
+        <!-- Số sao -->
+        <TextView
+            android:id="@+id/star_count"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="10/10"
+            android:textSize="27sp"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="1dp"
+            android:layout_gravity="center_vertical"/>
+
+        <!-- Nút Pause -->
+        <ImageView
+            android:id="@+id/img_cross"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/cross"
+            android:background="@drawable/circle_background"
+            android:contentDescription="Đóng"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="3dp"
+            android:padding="14dp"
+            android:soundEffectsEnabled="false"
+            android:scaleType="centerInside" />
+    </LinearLayout>
+
+    <!-- Thanh tiêu đề full màn hình -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#7CB342"
+        android:gravity="center_vertical"
+        android:padding="10dp">
+
+        <!-- Tiêu đề ở giữa -->
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="   Đã hoàn thành!"
+            android:textSize="30sp"
+
+            android:textColor="#FFFFFF"
+            android:gravity="center" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    android:background="#F1E8B8"
+    android:gravity="center_horizontal"
+    android:padding="10dp"
+    android:layout_marginTop="100dp">
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:id="@+id/tv_tongcau"
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="111"
+    android:textSize="20sp"
+    android:textColor="#777777"
+    android:gravity="center" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="-33dp"
+        android:id="@+id/tv_causai"
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="111"
+    android:textSize="20sp"
+    android:textColor="#777777"
+    android:gravity="center" />
+</LinearLayout>
+</LinearLayout>

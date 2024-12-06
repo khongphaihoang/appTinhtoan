@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#FFC107"> <!-- Màu gợn sóng khi nhấn -->
+
+    <!-- Nền và đường viền của nút -->
+    <item>
+        <shape android:shape="rectangle">
+
+            <!-- Bo góc nút -->
+            <corners android:radius="16dp" />
+            <!-- Đường viền trắng -->
+            <stroke
+                android:width="3dp"
+                android:color="#FFFFFF" />
+        </shape>
+    </item>
+</ripple>
